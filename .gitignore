@@ -1,0 +1,10 @@
+# Local execution state & history
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!example.tfvars
+crash.log
+override.tf
+override.tf.json
+.terraform.lock.hcl
